@@ -1,0 +1,416 @@
+    <div align="center" class="footer">
+            <nav id="menu">
+                    <div id="menuButtonWrapper">
+                      <div id="menuButton">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                      </div>
+                    </div>
+                  </nav>
+     <img src="/images/icon.white.svg" width="50px" style="opacity:0.6"> <br>
+    </div>
+
+    <script>
+    var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/* Pizza Menu
+ * Copyright FelisPhasma 2017
+ */
+
+function removeClass(e, c) {
+	// could use e.classList.remove however this provides better browser support
+	e.className = e.className.replace(new RegExp('(?:^|\\s)' + c + '(?:\\s|$)'), ' ');
+}
+
+var Menu = function () {
+	function Menu() {
+		_classCallCheck(this, Menu);
+
+		// DOM
+		this.themenu = document.getElementById("menu");
+		this.menuDialog = document.getElementById("menuContent");
+		this.menuButton = document.getElementById("menuButton");
+		this.buttonWidth = this.menuButton.offsetWidth;
+		this.dots = this.menuButton.getElementsByClassName("dot");
+		this.buttonDotSize = this.dots[0].offsetWidth;
+		//
+		this.open = false;
+		this.animating = false;
+
+		console.log(this.buttonWidth, this.buttonDotSize);
+		this.init();
+	}
+
+	_createClass(Menu, [{
+		key: 'positionDot',
+		value: function positionDot(dot, angle) {
+			var x = this.buttonWidth / 2 * Math.cos(angle),
+			    y = this.buttonWidth / 2 * Math.sin(angle);
+			dot.style.top = this.buttonWidth / 2 - y - this.buttonDotSize / 2 + "px";
+			dot.style.left = this.buttonWidth / 2 - x - this.buttonDotSize / 2 + "px";
+		}
+	}, {
+		key: 'showMenu',
+		value: function showMenu(This) {
+			// Add a different animation based off of the page design
+			This.menuDialog.style.opacity = "1";
+		}
+	}, {
+		key: 'hideMenu',
+		value: function hideMenu(This) {
+			// Add a different animation based off of the page design
+			This.menuDialog.style.opacity = "0";
+		}
+	}, {
+		key: 'menuClick',
+		value: function menuClick(This) {
+			// TODO: Hide and show menu
+			// Animate
+			if (This.animating) return; // TODO: cancel anim?
+			if (This.open) {
+				This.hideMenu(This);
+			} else {
+				This.showMenu(This);
+			}
+			This.animating = true;
+			vivum({
+				from: This.open ? -Math.PI : 0,
+				to: This.open ? -2 * Math.PI : -Math.PI,
+				duration: 450,
+				easing: "easeInOutQuad",
+				complete: function complete(x) {
+					// Blah
+				}
+			}, function (x) {
+				This.positionDot(This.dots[0], Math.PI / 2 + x);
+			});
+			window.setTimeout(function () {
+				vivum({
+					from: This.open ? -Math.PI : 0,
+					to: This.open ? -2 * Math.PI : -Math.PI,
+					duration: 450,
+					easing: "easeInOutQuad",
+					complete: function complete(x) {
+						// Blah
+					}
+				}, function (x) {
+					This.positionDot(This.dots[1], 7 * Math.PI / 6 + x);
+				});
+			}, 50);
+			window.setTimeout(function () {
+				vivum({
+					from: This.open ? -Math.PI : 0,
+					to: This.open ? -2 * Math.PI : -Math.PI,
+					duration: 450,
+					easing: "easeInOutQuad",
+					complete: function complete(x) {
+						// Blah
+						console.log(This.open);
+						This.animating = false;
+						This.open = !This.open;
+					}
+				}, function (x) {
+					This.positionDot(This.dots[2], 11 * Math.PI / 6 + x);
+				});
+			}, 100);
+		}
+	}, {
+		key: 'init',
+		value: function init() {
+			var _this = this;
+
+			var This = this;
+			this.hideMenu(this);
+			this.positionDot(this.dots[0], Math.PI / 2);
+			this.positionDot(this.dots[1], 7 * Math.PI / 6);
+			this.positionDot(this.dots[2], 11 * Math.PI / 6);
+			// Tell the css that it's OK to animate the dots
+			for (var i = 0, l = this.dots.length; i < l; i++) {
+				this.dots[i].className += " anim";
+			}
+			this.themenu.addEventListener("click", function () {
+				_this.menuClick(This);
+			}, false);
+		}
+	}]);
+
+	return Menu;
+}();
+// Vivum.js
+/* Vivum JavaScript animation library
+ * 
+ * Includes Robert Penner's Easing Functions
+ * http://www.robertpenner.com/easing/
+ * 
+ * Vivum Copyright (c) FelisPhasma 2014
+ */
+
+
+window.requestAnimFrame = function () {
+	return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
+		return window.setTimeout(callback, 1000 / 60);
+	};
+}();
+(function (window, undefined) {
+	/*
+  *
+  * TERMS OF USE - EASING EQUATIONS
+  * 
+  * Open source under the BSD License. 
+  * 
+  * Copyright © 2001 Robert Penner
+  * All rights reserved.
+  * 
+  * Redistribution and use in source and binary forms, with or without modification, 
+  * are permitted provided that the following conditions are met:
+  * 
+  * Redistributions of source code must retain the above copyright notice, this list of 
+  * conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list 
+  * of conditions and the following disclaimer in the documentation and/or other materials 
+  * provided with the distribution.
+  * 
+  * Neither the name of the author nor the names of contributors may be used to endorse 
+  * or promote products derived from this software without specific prior written permission.
+  * 
+  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+  * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+  *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+  *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+  * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+  * OF THE POSSIBILITY OF SUCH DAMAGE. 
+  *
+  */
+	var _easings = {
+		linear: function linear(t, b, c, d) {
+			return c * (t / d) + b; //(t - b) / d;
+		},
+		easeInQuad: function easeInQuad(t, b, c, d) {
+			return c * (t /= d) * t + b;
+		},
+		easeOutQuad: function easeOutQuad(t, b, c, d) {
+			return -c * (t /= d) * (t - 2) + b;
+		},
+		easeInOutQuad: function easeInOutQuad(t, b, c, d) {
+			if ((t /= d / 2) < 1) return c / 2 * t * t + b;
+			return -c / 2 * (--t * (t - 2) - 1) + b;
+		},
+		easeInCubic: function easeInCubic(t, b, c, d) {
+			return c * (t /= d) * t * t + b;
+		},
+		easeOutCubic: function easeOutCubic(t, b, c, d) {
+			return c * ((t = t / d - 1) * t * t + 1) + b;
+		},
+		easeInOutCubic: function easeInOutCubic(t, b, c, d) {
+			if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+			return c / 2 * ((t -= 2) * t * t + 2) + b;
+		},
+		easeInQuart: function easeInQuart(t, b, c, d) {
+			return c * (t /= d) * t * t * t + b;
+		},
+		easeOutQuart: function easeOutQuart(t, b, c, d) {
+			return -c * ((t = t / d - 1) * t * t * t - 1) + b;
+		},
+		easeInOutQuart: function easeInOutQuart(t, b, c, d) {
+			if ((t /= d / 2) < 1) return c / 2 * t * t * t * t + b;
+			return -c / 2 * ((t -= 2) * t * t * t - 2) + b;
+		},
+		easeInQuint: function easeInQuint(t, b, c, d) {
+			return c * (t /= d) * t * t * t * t + b;
+		},
+		easeOutQuint: function easeOutQuint(t, b, c, d) {
+			return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
+		},
+		easeInOutQuint: function easeInOutQuint(t, b, c, d) {
+			if ((t /= d / 2) < 1) return c / 2 * t * t * t * t * t + b;
+			return c / 2 * ((t -= 2) * t * t * t * t + 2) + b;
+		},
+		easeInSine: function easeInSine(t, b, c, d) {
+			return -c * Math.cos(t / d * (Math.PI / 2)) + c + b;
+		},
+		easeOutSine: function easeOutSine(t, b, c, d) {
+			return c * Math.sin(t / d * (Math.PI / 2)) + b;
+		},
+		easeInOutSine: function easeInOutSine(t, b, c, d) {
+			return -c / 2 * (Math.cos(Math.PI * t / d) - 1) + b;
+		},
+		easeInExpo: function easeInExpo(t, b, c, d) {
+			return t == 0 ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
+		},
+		easeOutExpo: function easeOutExpo(t, b, c, d) {
+			return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+		},
+		easeInOutExpo: function easeInOutExpo(t, b, c, d) {
+			if (t == 0) return b;
+			if (t == d) return b + c;
+			if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+			return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+		},
+		easeInCirc: function easeInCirc(t, b, c, d) {
+			return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;
+		},
+		easeOutCirc: function easeOutCirc(t, b, c, d) {
+			return c * Math.sqrt(1 - (t = t / d - 1) * t) + b;
+		},
+		easeInOutCirc: function easeInOutCirc(t, b, c, d) {
+			if ((t /= d / 2) < 1) return -c / 2 * (Math.sqrt(1 - t * t) - 1) + b;
+			return c / 2 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;
+		},
+		easeInElastic: function easeInElastic(t, b, c, d) {
+			var s = 1.70158,
+			    p = 0,
+			    a = c;
+			if (t == 0) return b;
+			if ((t /= d) == 1) return b + c;
+			if (!p) p = d * .3;
+			if (a < Math.abs(c)) {
+				a = c;
+				var s = p / 4;
+			} else var s = p / (2 * Math.PI) * Math.asin(c / a);
+			return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+		},
+		easeOutElastic: function easeOutElastic(t, b, c, d) {
+			var s = 1.70158,
+			    p = 0,
+			    a = c;
+			if (t == 0) return b;
+			if ((t /= d) == 1) return b + c;
+			if (!p) p = d * .3;
+			if (a < Math.abs(c)) {
+				a = c;
+				var s = p / 4;
+			} else var s = p / (2 * Math.PI) * Math.asin(c / a);
+			return a * Math.pow(2, -10 * t) * Math.sin((t * d - s) * (2 * Math.PI) / p) + c + b;
+		},
+		easeInOutElastic: function easeInOutElastic(t, b, c, d) {
+			var s = 1.70158,
+			    p = 0,
+			    a = c;
+			if (t == 0) return b;
+			if ((t /= d / 2) == 2) return b + c;
+			if (!p) p = d * (.3 * 1.5);
+			if (a < Math.abs(c)) {
+				a = c;
+				var s = p / 4;
+			} else var s = p / (2 * Math.PI) * Math.asin(c / a);
+			if (t < 1) return -.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+			return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p) * .5 + c + b;
+		},
+		easeInBack: function easeInBack(t, b, c, d, s) {
+			if (s == undefined) s = 1.70158;
+			return c * (t /= d) * t * ((s + 1) * t - s) + b;
+		},
+		easeOutBack: function easeOutBack(t, b, c, d, s) {
+			if (s == undefined) s = 1.70158;
+			return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
+		},
+		easeInOutBack: function easeInOutBack(t, b, c, d, s) {
+			if (s == undefined) s = 1.70158;
+			if ((t /= d / 2) < 1) return c / 2 * (t * t * (((s *= 1.525) + 1) * t - s)) + b;
+			return c / 2 * ((t -= 2) * t * (((s *= 1.525) + 1) * t + s) + 2) + b;
+		},
+		easeInBounce: function easeInBounce(t, b, c, d) {
+			return c - _easings["easeOutBounce"](d - t, 0, c, d) + b;
+		},
+		easeOutBounce: function easeOutBounce(t, b, c, d) {
+			if ((t /= d) < 1 / 2.75) {
+				return c * (7.5625 * t * t) + b;
+			} else if (t < 2 / 2.75) {
+				return c * (7.5625 * (t -= 1.5 / 2.75) * t + .75) + b;
+			} else if (t < 2.5 / 2.75) {
+				return c * (7.5625 * (t -= 2.25 / 2.75) * t + .9375) + b;
+			} else {
+				return c * (7.5625 * (t -= 2.625 / 2.75) * t + .984375) + b;
+			}
+		},
+		easeInOutBounce: function easeInOutBounce(t, b, c, d) {
+			if (t < d / 2) return _easings["easeInBounce"](t * 2, 0, c, d) * .5 + b;
+			return _easings["easeOutBounce"](t * 2 - d, 0, c, d) * .5 + c * .5 + b;
+		}
+	},
+	    _speeds = {
+		slow: 600,
+		fast: 200,
+		// Default speed
+		_def: 400
+	};
+	// Add on complete callback
+	var types = {
+		"[object Boolean]": "boolean",
+		"[object Number]": "number",
+		"[object String]": "string",
+		"[object Function]": "function",
+		"[object Array]": "array",
+		"[object Date]": "date",
+		"[object RegExp]": "regexp",
+		"[object Object]": "object",
+		"[object Error]": "error"
+	},
+	    stringTypes = types.toString;
+	function type(obj) {
+		if (obj == null) return String(obj);
+		return (typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) === "object" || typeof obj === "function" ? types[stringTypes.call(obj)] || "object" : typeof obj === 'undefined' ? 'undefined' : _typeof(obj);
+	};
+	function vivum(properties, callback) {
+		var t = ["from", "to"];
+		for (var i = 0; i < t.length; i++) {
+			if (!(type(properties[t[i]]) == "number")) {
+				throw new Error("Property '" + t[i] + "' must be set and be a number.");
+				return false;
+			}
+		};
+		/*if(properties["fps"] == undefined)
+  	properties["fps"] = 50;
+  properties["fps"] = properties["fps"] == undefined && type(properties["fps"]) != "number" ? 60 : Math.abs(properties["fps"]);
+  */ //console.log(properties["fps"]);
+		if (type(properties["duration"]) != "number") properties["duration"] = _speeds[properties["duration"]] == undefined ? _speeds["_def"] : _speeds[properties["duration"]];
+		properties["easing"] = _easings[properties["easing"]] == undefined ? "linear" : properties["easing"];
+		properties["complete"] = properties["complete"] ? properties["complete"] : function () {};
+		//according to http://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering 
+		//tau can represent "an interval of time"
+		//var tau = 1000 / properties["fps"];
+		//console.log(tau);
+		var start = new Date() * 1,
+		    ticks = Math.floor(properties["duration"] / 20),
+		    tick = 0,
+		    aborted = false;
+		function anim() {
+			if (aborted) return;
+			tick++;
+			var step = _easings[properties["easing"]](20 * tick, properties["from"], properties["to"] - properties["from"], properties["duration"]);
+			callback(step);
+			if (tick != ticks) window.setTimeout(anim, 20);else properties["complete"](new Date() * 1 - start);
+		};
+		anim();
+		return {
+			abort: function abort() {
+				aborted = true;
+			}
+		};
+	};
+	window.vivum = vivum;
+	window.vivumInfo = {
+		easings: function easings() {
+			var a = [];
+			for (j in _easings) {
+				a.push(j);
+			}return a;
+		},
+		speeds: function speeds() {
+			return _speeds;
+		}
+	};
+})(window);
+
+// Init
+var m = new Menu();</script>
+  </body>
+</html>

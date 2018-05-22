@@ -1,0 +1,35 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+# Gems (for Jekyll 3.0)
+gems: [jekyll-paginate]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Uonai
+tagline:             'A computer programmer'
+description:         ''
+url:                 http://uonai.space
+baseurl:             /
+paginate:            7
+
+# About/contact
+author:
+  name:              Colin McCaleb
+  url:               https://twitter.com/uonaiii
+  email:             cs.mccaleb@gmail.com
+
+# Custom vars
+version:             2.0
+
+# Social Media
+github:				http://github.com/uonai
+twitter:			http://twitter.com/uonaiii
+disqus:             testnaringu
+
+
