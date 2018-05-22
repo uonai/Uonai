@@ -11,7 +11,7 @@ gems: [jekyll-paginate]
 permalink:           pretty
 
 # Setup
-title:               Uonai
+title:               Uonai ///
 tagline:             'A computer programmer'
 description:         ''
 url:                 http://uonai.space
@@ -25,11 +25,11 @@ author:
   email:             cs.mccaleb@gmail.com
 
 # Custom vars
-version:             2.0
+version:             0.1
 
 # Social Media
 github:				http://github.com/uonai
 twitter:			http://twitter.com/uonaiii
-disqus:             testnaringu
+disqus:             
 
 

@@ -36,7 +36,7 @@ body {
 }
 
 html {
-  font-family: "CMU Serif";
+  font-family: "CMU Typewriter Text";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -69,7 +69,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "CMU Classical Serif";
+  font-family: "CMU Concrete";
   font-weight: 400;
   color: #ffffff;
   letter-spacing: -.025rem;
@@ -96,7 +96,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "CMU Serif";
+  font-family: "CMU Typewriter Text";
 }
 
 strong {
@@ -305,9 +305,10 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-family:"Arnold_v0.1";
 }
 .masthead-title a {
-  color: #505050 !important;
+  color: #9a9a9a;
 }
 .masthead-title small {
   font-size: 75%;
@@ -349,7 +350,7 @@ tbody tr:nth-child(odd) th {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "CMU Classical Serif";
+  font-family: "CMU Concrete";
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   border: 1px solid #505050;
@@ -423,7 +424,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:before {
   display: block;
   content: "";
-  width: 100%;
+  width: 20%;
   padding-bottom: .125rem;
   border-top: .375rem double;
   border-bottom: .125rem solid;
@@ -649,7 +650,7 @@ a.pagination-item:hover {
 .theme-6dd .container a,
 .theme-6dd .sidebar-toggle,
 .theme-6dd .related-posts li a:hover {
-  color: #9a9a9a;
+  color: #FDDF6D;
 }
 
 
@@ -687,69 +688,6 @@ a.pagination-item:hover {
   padding-top: 10px;
   padding-bottom: 10px; 
   border-top: 1px solid #505050;
-  font-family: "CMU Serif";
+  font-family: "CMU Typewriter Text";
 }
 
-/*
-Pizza Menu
-*/
-
-@keyframes pop {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.25);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-#menu #menuButtonWrapper {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 8px;
-  cursor: pointer;
-}
-#menu #menuButtonWrapper #menuButton {
-  width: 22px;
-  height: 22px;
-  position: relative;
-}
-#menu #menuButtonWrapper #menuButton .dot {
-  background: #999;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
-  position: absolute;
-}
-#menu #menuButtonWrapper:hover .dot.anim {
-  animation-name: pop;
-  animation-duration: .33s;
-  animation-timing-function: ease;
-}
-#menu #menuContent {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background: #444;
-  position: fixed;
-  width: 230px;
-  max-height: calc(100vh - 80px - 30px);
-  overflow-y: scroll;
-  left: 0;
-  right: 0;
-  top: 40px;
-  margin: 0px auto;
-  padding: 15px;
-  color: #efefef;
-  transition: opacity 0.3s ease-in;
-}
-#menu #menuContent ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-#menu #menuContent ul li {
-  margin: 5px 0px;
-}
