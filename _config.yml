@@ -14,8 +14,8 @@ permalink:           pretty
 title:               Uonai ///
 tagline:             'A computer programmer'
 description:         ''
-url:                 htts://uonai.space/
-baseurl:             htts://uonai.space/
+url:                 https://uonai.space/
+baseurl:             https://uonai.space/
 paginate:            5
 
 # About/contact
