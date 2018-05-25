@@ -7,7 +7,7 @@ keywords: "Designing in Shifting Sands"
 date:   2017-09-04 12:16:22 +0200
 published: true
 categories:
-- Ramblings
+- Writing
 ---
 We feel we are capable of creating perfect things. Many of us chase this idea our entire lives. Chasing this gives us a sense of satisfaction and lets us create long term goals for ourselves. Gauging ourself against the goal of creating the “perfect thing” shapes who we are.
 

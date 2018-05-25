@@ -1,6 +1,6 @@
 ---
-title: About
-author: ariestiyansyah
+title: Persona
+author: Uonai
 layout: page
 ---
 
@@ -8,17 +8,16 @@ layout: page
 
 Hello, my name is __Uonai__ and I’m a __Computer Programmer__ with equal parts interest in design and development.
 
-My current interests are JavaScript Frontend frameworks and C# / ASP.NET.
+My current interests are JavaScript Frontend frameworks and C# / ASP.NET. I am currently a UI Developer / Technology Consultant at [Avanade](http://avanade.com).
 
-I was worked at several company as full-time employeer and __freelancer__ like
+I have worked at several company as full-time employeer and __freelancer__:
 
-- [Avanade](http://avanade.com) 
-- [World Bicycle Relief](http://litbang.pu.go.id/)
-- [Bitaccess](http://polatic.co.id)
-- [SilkRoad](http://evonestudio.com)
+- [World Bicycle Relief](https://worldbicyclerelief.org)
+- [Bitaccess](http://bitaccess.co)
+- [SilkRoad](http://silkroad.com)
 
 
 ## Ping me!
 
-If you have any questions, comments, or would just like to __PING ME__, please don't hesitate to  [send me an email](cs.mccaleb@gmail.com). 
+If you have any questions, comments, or would just like to __PING ME__, please don't hesitate to  [send me an email](mailto:cs.mccaleb@gmail.com). 
 

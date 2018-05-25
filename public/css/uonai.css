@@ -55,7 +55,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #ffffff;
+  color: #FDDF6D;
   text-decoration: none;
 }
 a strong {
@@ -65,13 +65,13 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: dotted underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "CMU Concrete";
   font-weight: 400;
-  color: #ffffff;
+  color: #fdfdfd;
   letter-spacing: -.025rem;
   text-decoration:none;
 } 
@@ -166,7 +166,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #000;
-  border: 1px solid #582efd;
+  border: 1px solid #FDDF6D
 }
 pre code {
   padding: 0;
@@ -229,7 +229,7 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* 
@@ -298,8 +298,9 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #505050;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+ /** border-bottom: 1px solid #505050;**/
 }
 .masthead-title {
   margin-top: 0;
@@ -367,7 +368,7 @@ tbody tr:nth-child(odd) th {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #ffffff;
+  color: #9a9a9a;
   font-family: "Arnold_v0.1";
 }
 .sidebar-item {
@@ -391,7 +392,7 @@ tbody tr:nth-child(odd) th {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: #191E1E;
+  background-color: #111111;
   border-color: #505050;
 }
 
@@ -418,28 +419,16 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem 0rem;
-  color: #505050;
+  color: #9a9a9a;
   background-color: #000;
   border-radius: 4px;
   cursor: pointer;
-}
-.sidebar-toggle:before {
-  display: block;
-  content: "";
-  width: 20%;
-  padding-bottom: .125rem;
-  border-top: .375rem double;
-  border-bottom: .125rem solid;
-
-  /* Make the border inside the box */
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #ffffff;
+  opacity:0.4;
   background-color: #505050;
 }
 
@@ -519,6 +508,7 @@ a.sidebar-nav-item:focus {
   padding: 1rem;
   color: #000;
   background-color: #ffffff;
+  opacity:0.4;
 }
 
 /*
@@ -537,8 +527,9 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #9a9a9a;
+  color:#FDDF6D
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -644,14 +635,14 @@ a.pagination-item:hover {
 
 /* #6DD */
 
-.theme-6dd .sidebar,
-.theme-6dd .sidebar-toggle:active,
-.theme-6dd #sidebar-checkbox:checked ~ .sidebar-toggle {
+.uonai .sidebar,
+.uonai .sidebar-toggle:active,
+.uonai #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #000000;
 }
-.theme-6dd .container a,
-.theme-6dd .sidebar-toggle,
-.theme-6dd .related-posts li a:hover {
+.uonai .container a,
+.uonai .sidebar-toggle,
+.uonai .related-posts li a:hover {
   color: #FDDF6D;
 }
 
@@ -704,6 +695,7 @@ a.pagination-item:hover {
 .footer li{
   float:left;
   list-style: none inside none;
+  padding: 0 0.25em;
 }
 
 .footer li:first-child{
