@@ -10,7 +10,7 @@ Hello, my name is __Uonai__ and I’m a __Computer Programmer__ with equal parts
 
 My current interests are JavaScript Frontend frameworks and C# / ASP.NET. I am currently a UI Developer / Technology Consultant at [Avanade](http://avanade.com).
 
-I have worked at several company as full-time employeer and __freelancer__:
+I have worked at several companies as full-time employee and __freelancer__:
 
 - [World Bicycle Relief](https://worldbicyclerelief.org)
 - [Bitaccess](http://bitaccess.co)
