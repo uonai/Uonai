@@ -136,7 +136,7 @@ body {
 }
 
 html {
-  font-family: "Compute Modern Typewriter";
+  font-family: "Computer Modern Typewriter";
   font-size: 16px;
   line-height: 1.5;
 }
@@ -169,7 +169,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Compute Modern Concrete";
+  font-family: "Computer Modern Concrete";
   font-weight: 400;
   color: #fdfdfd;
   letter-spacing: -.025rem;
@@ -196,7 +196,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "Compute Modern Typewriter";
+  font-family: "Computer Modern Typewriter";
 }
 
 strong {
@@ -451,7 +451,7 @@ tbody tr:nth-child(odd) th {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "Compute Modern Concrete";
+  font-family: "Computer Modern Concrete";
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   border: 1px solid #505050;
@@ -781,7 +781,7 @@ a.pagination-item:hover {
   padding-top: 10px;
   padding-bottom: 10px; 
   border-top: 1px solid #505050;
-  font-family: "Compute Modern Typewriter";
+  font-family: "Computer Modern Typewriter";
 }
 
 .footer ul{
