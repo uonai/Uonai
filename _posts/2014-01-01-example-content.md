@@ -3,6 +3,7 @@ layout: post
 title: Example content
 categories:
 - naringu
+published: false
 ---
 
 
