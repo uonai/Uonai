@@ -4,6 +4,8 @@ title: "Aggregating JSON Feeds From Multiple Systems"
 comments: true
 description: "Aggregating JSON Feeds From Multiple Systems"
 keywords: "Aggregating JSON Feeds From Multiple Systems"
+categories:
+- Projects
 ---
 
 Last month I solved a problem World Bicycle Relief was struggling with for a long time -- integrating all of our international donation feeds into one single feed to show the impact with a campaign.

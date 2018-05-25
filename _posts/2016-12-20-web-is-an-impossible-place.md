@@ -4,6 +4,8 @@ title: "The Web is an Impossible Place"
 comments: true
 description: "The Web is an Impossible Place. "
 keywords: "The Web is an Impossible Place"
+categories:
+- Ramblings
 ---
 
 One of the biggest causes of fear in web developers is our perceived lack of knowledge. Taking a brief look at the web, it’s easy to see a lot of what we don’t know, and not a lot of what we do know.
