@@ -15,7 +15,7 @@ title:               Uonai ///
 tagline:             'A computer programmer'
 description:         ''
 url:                 http://uonai.space
-baseurl:             /
+baseurl:             http://uonai.space
 paginate:            5
 
 # About/contact
