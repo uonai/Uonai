@@ -16,8 +16,8 @@ We both brought notebooks. Sitting at a table, we attempted to break down the on
 That conclusion was nearly ten years ago and since then I’ve often thought about this topic. Lately I’ve adopted the term Eudaimonia to refer to general well-being and happiness. “Eu” meaning “well”, “daimon” meaning “guardian spririt”.  
 
 Socrates often referred to Eudaimonia as being essential for the good life. However, provided a double edged sword: Eudaimonia could not be achieved by the pursuit of happiness, but rather was a side effect of pursuit of what was right. 
-Borrowing from [Lander.edu](https://philosophy.lander.edu/ethics/socrates.html) 
 
+Quoting from [Lander.edu](https://philosophy.lander.edu/ethics/socrates.html):
 > * One's true happiness is promoted by doing what is right.
 > * When your true utility is served (by tending your soul), you are achieving happiness. Happiness is evident only in terms of a long-term effect on the soul.
 > * The Socratic ethics has a  teleological character — consequently, a mechanistic explanation of human behavior is mistaken. Human action aims toward the good in accordance with purpose in nature.
