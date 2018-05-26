@@ -9,7 +9,7 @@ published: false
 categories:
 - Writing
 ---
-My first year of college, I met up with a friend at Tate Street coffee shop. Tate Street Coffee was on the outskirts of campus on a small street packed with bookstores, boutiques,and diners. We met to discuss the topic "on how to achieve happiness.”  
+My first year of college, I met up with a friend at Tate Street Coffee shop. Tate Street Coffee was on the outskirts of campus on a small street packed with bookstores, boutiques,and diners. We met to discuss the topic "on how to achieve happiness.”  
 
 We both brought notebooks. Sitting at a table, we attempted to break down the ontology and point to the root causes. After some time we ended at an imperfect conclusion. Namely, that achieving happiness meant pursuing your dreams while maintaining relationships with others. 
 
