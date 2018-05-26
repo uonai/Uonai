@@ -5,7 +5,7 @@ comments: true
 description: "Eudaimonia and the Path to Happiness"
 keywords: "Eudaimonia and the Path to Happiness"
 date:   2018-05-25 12:16:22 +0200
-published: false
+published: true
 categories:
 - Writing
 ---
@@ -43,3 +43,5 @@ Acting correctly on a virtue is often forgotten as it was the right thing to do.
 As we’re growing in Wisdom, Courage, Self Control, and Justice, we’re meant to fail. Stoicism embraces this constant failure. I think Marcus Aurelius said it best in his meditations. We endure pain and celebrate our struggle with Eudaimonia.
 
 > “Does what’s happened keep you from acting with justice, generosity, self-control, sanity, prudence, honesty, humility, straightforwardness, and all other qualities that allow a person’s nature to fulfill itself? So remember this principle when something threatens to cause you pain: the thing itself was no misfortune at all; to endure it and prevail is great good fortune.” 
+
+It isn't often nowadays that I get to discuss topics like these in coffee shops. Speculation like this often happens more and more on a deeply personal level. Life has a way of teaching us virtues whether we plan for their teaching or not. I anticipate that because as I have aged, and everyone around me has aged, we are at different points in our journey. Either those conversations are behind us, or our knowledge of virtues are so deeply embedded they can't be put into words. 
