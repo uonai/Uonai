@@ -26,7 +26,7 @@ Socrates suggested that doing what was naturally right, for long periods of time
 
 Virtue is and always has been a hotly debated topic. It seems, rightly so, that everyone has their own virtues they value and subscribe to. Mine have shifted over time and I imagine yours have too. That’s learning. 
 
-Nowadays I lean on Stoicism and the Buddhist Eightfold Path. I'll cover Stoicism in this post and at some point talk deeper on Buddhist principles. 
+Nowadays I lean on Stoicism along with a few other systems of being.
 
 Stoicism has yet to fail me. All other ethical principles have failed me, sometimes drastically.  
 
@@ -36,9 +36,9 @@ Stoicism was founded on four virtues, each learned over time by the individual.
 * Self Control - acting correctly in situations around lust, desire, appetite.
 * Justice - acting benevolently toward others where it makes sense.
 
-These four virtues take a lifetime to learn. It's said to be in the act of learning and acting on these virtues that the individual grows with Eudaimonia. 
+These four virtues can take a lifetime to learn. It's said to be in the act of learning and acting on these virtues that the individual grows with Eudaimonia. 
 
-Acting correctly on a virtue is often forgotten as it was the right thing to do. Acting incorrectly on a virtue, however is often immortalized. Society makes examples of individuals that act without virtue.
+Acting correctly on a virtue is often forgotten as it was the right thing to do. Acting incorrectly on a virtue, however is often immortalized. Society makes examples of individuals that act without virtue. Stoicism prepares the individual for this.
 
 As we’re growing in Wisdom, Courage, Self Control, and Justice, we’re meant to fail. Stoicism embraces this constant failure. I think Marcus Aurelius said it best in his meditations. We endure pain and celebrate our struggle with Eudaimonia.
 
