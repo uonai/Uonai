@@ -37,11 +37,11 @@ Disable fast startup: [https://lifehacker.com/enable-this-setting-to-make-window
 ### BIOS Updates
 I needed to make these updates to BIOS when I rebooted my PC. Prior to making these updates I was not able to boot from USB.
 * SECURITY page
-** Secure Boot = Disable
+    * Secure Boot = Disable
 * STARTUP page
-** UEFI/Legacy Boot = Both
-*** UEFI/Legacy Boot / UEFI/Legacy Boot Priority = UEFI First
-** Boot device list F12 Option = Enabled
+    * UEFI/Legacy Boot = Both
+    * UEFI/Legacy Boot / UEFI/Legacy Boot Priority = UEFI First
+    * Boot device list F12 Option = Enabled
 
 Once manufacturer issues are resolved (if you end up having any), you'll be able to install Manjaro. For the install, I followed this tutorial: [https://www.youtube.com/watch?v=4-kafKduFZw](https://www.youtube.com/watch?v=4-kafKduFZw)
 
