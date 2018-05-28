@@ -14,27 +14,27 @@ I bricked my Macbook Pro this weekend and took the opportunity to upgrade to a W
 
 Manjaro is the Arch Linux distro that I decided on [https://manjaro.github.io/](https://manjaro.github.io/). Arch Linux has a reputation for being difficult to configure and hard to maintain. However, Manjaro provides enough built-in functionality to make installation and maintenance less painful. I'll try to highlight my process for installing Arch Linux to make it easier for anyone looking to make the move. Note: I anticipate that everyone will have their own form of struggle, so be prepared to tinker.
  
-## Step 1: Try out your Linux distro before installing.
+# Step 1: Try out your Linux distro before installing.
 Based on past experience spinning up VMs, I opted for Oracle VirtualBox. This let me get a feel for a couple different Linux distros: Solus, ElementaryOS, Ubuntu, Arch Linux. 
 
 Process for setting up VM: [https://wiki.manjaro.org/index.php?title=VirtualBox](https://wiki.manjaro.org/index.php?title=VirtualBox)
 
-## Step 2: Back up files.
+# Step 2: Back up files.
 I backed up the few files that I had locally by adding them to my Google Drive. Never know what can go wrong when installing new operating systems.
 
-## Step 2: Free up space on your hard drive.
+# Step 2: Free up space on your hard drive.
 My hard drive on my Lenovo T470 is 250GB. I dedicated 150 to Windows 10, 100 to Arch Linux. To free up space, I followed this tutorial: [https://www.youtube.com/watch?v=9gS5SoogltE](https://www.youtube.com/watch?v=9gS5SoogltE)
 
-## Step 3: Create Bootable USB drive.
+# Step 3: Create Bootable USB drive.
 Manjaro has three versions: XFCE (minimal), KDE (luxury), GNOME (halfway point between XFCE & KDE), Architect (console-based). Based on my specs, I installed KDE. After downloading the ISO, I followed this tutorial to set up a bootable USB stick with the ISO. Because I'm on Windows 10, I followed this section: "Writing to a USB Stick in Windows": [https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File] (https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File) 
 
-## Step 4: Boot from BIOS, run Arch Linux installer.
+# Step 4: Boot from BIOS, run Arch Linux installer.
 There were a few Lenovo manufacturer that I needed to resolve here. I anticipate this will be different for each user based on manufacturer. You'll need to modify your BIOS settings to be able to boot from USB. Here are the updates I needed to make:
 
-### Windows Updates
+## Windows Updates
 Disable fast startup: [https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169](https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169)
 
-### BIOS Updates
+## BIOS Updates
 I needed to make these updates to BIOS when I rebooted my PC. Prior to making these updates I was not able to boot from USB.
 * SECURITY page
     * Secure Boot = Disable
