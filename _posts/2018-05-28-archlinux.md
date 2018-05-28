@@ -63,4 +63,4 @@ Software I'm running currently:
 * Android Studio: [https://developer.android.com/studio/](https://developer.android.com/studio/)
 
 
-I'm one day in and very happy with the setup. Arch Linux brings me back to the DeviantArt Windows 2000 era when everything seemed customizable. Computing is downright fun with Arch Linux and I look forward to continuing to test its potential. 
+I've spent one day so far with Arch Linux and I'm pleased with the setup. Arch Linux brings me back to the DeviantArt Windows 2000 era when everything seemed customizable. Computing is downright fun with Arch Linux and I look forward to continuing to test its potential. 
