@@ -29,7 +29,7 @@ My hard drive on my Lenovo T470 is 250GB. I dedicated 150 to Windows 10, 100 to 
 Manjaro has three versions: XFCE (minimal), KDE (luxury), GNOME (halfway point between XFCE & KDE), Architect (console-based). Based on my specs, I installed KDE. After downloading the ISO, I followed this tutorial to set up a bootable USB stick with the ISO. Because I'm on Windows 10, I followed this section: "Writing to a USB Stick in Windows": [https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File](https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File) 
 
 # Step 4: Boot from BIOS, run Arch Linux installer.
-There were a few Lenovo manufacturer that I needed to resolve here. I anticipate this will be different for each user based on manufacturer. You'll need to modify your BIOS settings to be able to boot from USB. Here are the updates I needed to make:
+There were a few Lenovo manufacturer issues that I needed to resolve here. I anticipate this will be different for each user based on manufacturer. You'll need to modify your BIOS settings to be able to boot from USB. Here are the updates I needed to make:
 
 ## Windows Updates
 Disable fast startup: [https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169](https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169)
