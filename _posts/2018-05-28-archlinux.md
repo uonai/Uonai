@@ -14,7 +14,7 @@ I bricked my Macbook Pro this weekend and took the opportunity to upgrade to a W
 
 Manjaro is the Arch Linux distro that I decided on [https://manjaro.github.io/](https://manjaro.github.io/). Arch Linux has a reputation for being difficult to configure and hard to maintain. However, Manjaro provides enough built-in functionality to make installation and maintenance less painful. I'll try to highlight my process for installing Arch Linux to make it easier for anyone looking to make the move. Note: I anticipate that everyone will have their own form of struggle, so be prepared to tinker.
  
-## Step 1: Try out your linux distro first.
+## Step 1: Try out your Linux distro before installing.
 Based on past experience spinning up VMs, I opted for Oracle VirtualBox. This let me get a feel for a couple different Linux distros: Solus, ElementaryOS, Ubuntu, Arch Linux. 
 
 Process for setting up VM: [https://wiki.manjaro.org/index.php?title=VirtualBox](https://wiki.manjaro.org/index.php?title=VirtualBox)
