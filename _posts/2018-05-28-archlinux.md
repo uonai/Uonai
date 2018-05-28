@@ -10,7 +10,7 @@ categories:
 - Writing
 ---
 ![Arch Linux](https://uonai.space/images/arch-linux.jpg){:class="img-responsive"}
-I bricked my Macbook Pro this weekend and took the opportunity to upgrade to a Windows 10 / Linux dual boot. I purchased a Lenovo T470 because it was rated well for both Linux and Mac and was built for buisiness-grade programming. 
+I bricked my Macbook Pro this weekend and took the opportunity to upgrade to a Windows 10 / Linux dual boot. I purchased a Lenovo T470 because it was rated well for both Linux and Windows and was built for buisiness-grade programming. 
 
 Manjaro is the Arch Linux distro that I decided on [https://manjaro.github.io/](https://manjaro.github.io/). Arch Linux has a reputation for being difficult to configure and hard to maintain. However, Manjaro provides enough built-in functionality to make installation and maintenance less painful. I'll try to highlight my process for installing Arch Linux to make it easier for anyone looking to make the move. Note: I anticipate that everyone will have their own form of struggle, so be prepared to tinker.
  
