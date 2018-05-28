@@ -34,7 +34,7 @@ There were a few Lenovo manufacturer that I needed to resolve here. I anticipate
 ### Windows Updates
 Disable fast startup: [https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169](https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169)
 
-### BIOS UPDATES
+### BIOS Updates
 I needed to make these updates to BIOS when I rebooted my PC. Prior to making these updates I was not able to boot from USB.
 * SECURITY page
 ** Secure Boot = Disable
