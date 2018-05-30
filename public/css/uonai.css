@@ -642,7 +642,7 @@ a.sidebar-nav-item:focus {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -1.5rem;
+  margin-top: -1rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size:0.8em;
