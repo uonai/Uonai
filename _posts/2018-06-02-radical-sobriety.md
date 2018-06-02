@@ -15,7 +15,7 @@ The past few years I've stepped away from movements of all types to try to bette
 
 Radical sobriety is a movement I miss. I'm not sure why it captivated me, but know now that it shaped my identity to the core.
 
-By the time I graduated primary school, I was addicted to Xanax. After breaking from that pattern, I've kept away from prescription drugs of all forms. Social situations have been difficult since and I've learned to adapt.
+By the time I graduated secondary school, I was addicted to Xanax. After breaking from that pattern, I've kept away from prescription drugs of all forms. Social situations have been difficult since and I've learned to adapt.
 
 ## Radical Youth vs. Moderate Adult
 
