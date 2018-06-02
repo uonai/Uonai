@@ -40,7 +40,9 @@ The City feel bound to drinking. Business feels bound to drinking. The myth is t
 
 ## Rebellion is Exile
 
-Culture seems bound to intoxicants. Risking rebellion against culture as a whole is risking self-imposed exile. I'll refer back to my previous post, [The First Fifteen Minutes](https://uonai.space/writing/2018/05/29/fifteen/).
+Culture seems bound to intoxicants. Going against this culture as a whole is risking self-imposed exile. I find that the only type of rebellion is to quietly fit in and make due with social situations as they are. There are no safe spaces for moderates.
+
+I'll refer back to my previous post, [The First Fifteen Minutes](https://uonai.space/writing/2018/05/29/fifteen/).
 
 The first fifteen minutes of social situations are the most awkward and difficult. At the bar, at home, etc.. This often leads to getting drinks as soon as possible. Note: The only thing that can make the first fifteen minutes more awkward is stating that you do not drink. I tend to order a fun drink without alcohol and avoid the topic of sobriety entirely. 
 
