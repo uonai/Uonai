@@ -38,8 +38,6 @@ Contributing to the world puts us in touch with individuals like us. Contributio
 
 The City feel bound to drinking. Business feels bound to drinking. The myth is that drinking brings us together. The reality though is that we do not attempt to resolve the disconnect between ourselves and others.
 
-The more I age, the more I feel disconnected with the new people I meet. If a conversation is not goal-oriented, it often feels awkward. Awkwardness is readily solved with intoxication.  
-
 ## Rebellion is Exile
 
 Culture seems bound to intoxicants. Risking rebellion against culture as a whole is risking self-imposed exile. I'll refer back to my previous post, [The First Fifteen Minutes](https://uonai.space/writing/2018/05/29/fifteen/).
