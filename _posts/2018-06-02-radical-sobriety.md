@@ -36,7 +36,7 @@ We tend to associate with people contributing to the world in similar ways to ho
 
 Contributing to the world puts us in touch with individuals like us. Contribution requires active, ongoing participation. Finding ways to take part in the world outside of intoxicants is difficult in adulthood.
 
-The City feel bound to drinking. Business feels bound to drinking. The myth is that drinking brings us together. The reality though is that we do not attempt to resolve the disconnect between ourselves and others.
+The City feels bound to drinking. Business feels bound to drinking. The myth is that drinking brings us together. The reality though is that we do not attempt to resolve the disconnect between ourselves and others.
 
 ## Rebellion is Exile
 
