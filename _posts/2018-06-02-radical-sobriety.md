@@ -21,7 +21,7 @@ By the time I graduated primary school, I was addicted to Xanax. After breaking 
 
 Youth culture embraces sobriety. It creates sober spaces for radicals. Adulthood, however, assumes that we have broken from the ideological chains of youth culture. In place of youth culture, we have bound ourselves to the moderate chains of adulthood.
 
-Moderation implies that you pay bills and generally do what is expected of you. Taking drink when those around you are drinking is one of those many expectations. Avoiding drink can be seen as suspicious and negatively on your character.
+Moderation implies that you pay bills and generally do what is expected of you. Taking drink when those around you are drinking is one of those many expectations. Avoiding drink can even be seen as suspicious depending on your social or business circle.
 
 Marcus Aurelius spoke of Socrates and his ability to moderate to meet expectations:
 > “Which is recorded of Socrates, that he was able both to abstain from, and to enjoy, those things which many are too weak to abstain from, and cannot enjoy without excess. But to be strong enough both to bear the one and to be sober in the other is the mark of a man who has a perfect and invincible soul.”
