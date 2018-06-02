@@ -46,7 +46,7 @@ Culture seems bound to intoxicants. Risking rebellion against culture as a whole
 
 The first fifteen minutes of social situations are the most awkward and difficult. At the bar, at home, etc.. This often leads to getting drinks as soon as possible. Note: The only thing that can make the first fifteen minutes more awkward is stating that you do not drink. I tend to order a fun drink without alcohol and avoid the topic of sobriety entirely. 
 
-We become increasingly different from each other as we age. Sometimes it's hard to break through the layers of an individual to find similarities. Without intoxicants, conversation requires creativity. This is a good thing because creative conversation creates lasting memories: Story-telling, jokes, games, active hobbies.
+Sometimes it's hard to relate to others. As we age, we become increasingly different from each other. The experiences that shaped us are rarely shared. It's hard to break through the layers of an individual to find similarities. Without intoxicants, conversation requires creativity. This is a good thing, I think, because creative conversation creates lasting memories: Story-telling, jokes, games, active hobbies.
 
 When socializing, I try to find a few shared interests in the first fifteen minutes. I can usually find three shared interests, sometimes less, sometimes more. I've yet to meet someone that is unlike me in every way. With similar interests, there is endless conversation. 
 
