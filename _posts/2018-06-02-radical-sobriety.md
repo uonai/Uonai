@@ -28,7 +28,7 @@ Marcus Aurelius spoke of Socrates and his ability to moderate to meet expectatio
 
 However, unlike Socrates I am imperfect. I suspect that Socrates was an outlier, perhaps even idolized to the point of near mythology. We can't all expect to be like him.
 
-## Impefection is the Norm
+## Imperfection is the Norm
 
 I try to abstain from activities that amplify my imperfections. There seems to always be better, more interesting path when intoxicants are out of the picture. The search for the better path is both the most difficult and the most rewarding part about embracing sobriety. 
 
