@@ -40,7 +40,7 @@ The City feel bound to drinking. Business feels bound to drinking. The myth is t
 
 ## Rebellion is Exile
 
-Culture seems bound to intoxicants. Rebelling against culture as a whole is risking self-imposed exile. I find that the only type of rebellion that makes sense is to quietly fit in and make due with social situations as they are, where they are. There are no safe spaces for moderates.
+Contemporary Western culture seems bound to intoxicants throughout mostly all social circles. Rebelling against this culture as a whole is risking self-imposed exile. I find that the only type of rebellion that makes sense is to quietly fit in and make due with social situations as they are, where they are. There are no safe spaces for moderates.
 
 I'll refer back to my previous post, [The First Fifteen Minutes](https://uonai.space/writing/2018/05/29/fifteen/).
 
