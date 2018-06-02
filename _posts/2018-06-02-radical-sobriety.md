@@ -30,23 +30,23 @@ However, unlike Socrates I am imperfect. I suspect that Socrates was an outlier,
 
 ## Impefection is the Norm
 
-I prefer to abstain from activities that amplify my imperfections. There seems to always be a better, more interesting path when intoxicants are out of the picture. The search for the better path is both the most difficult and the most rewarding part about embracing sobriety. 
+I try to abstain from activities that amplify my imperfections. There seems to always be better, more interesting path when intoxicants are out of the picture. The search for the better path is both the most difficult and the most rewarding part about embracing sobriety. 
 
-We tend to associate with people contribution to the world in similar ways to how we contribute. The creatives associate with the creatives, the laborers with the laborers.
+We tend to associate with people contributing to the world in similar ways to how we contribute. The creatives associate with the creatives, the laborers with the laborers.
 
-Contributing to the world puts us in touch with the individuals like us. Contribution requires active, ongoing participation. Finding ways to take part in the world outside of intoxicants is difficult in adulthood.
+Contributing to the world puts us in touch with individuals like us. Contribution requires active, ongoing participation. Finding ways to take part in the world outside of intoxicants is difficult in adulthood.
 
-The City feel bound to drinking. Business feels bound to drinking. The myth is that drinking brings us together. The reality is that we do not attempt to resolve the disconnect between ourselves and others.
+The City feel bound to drinking. Business feels bound to drinking. The myth is that drinking brings us together. The reality though is that we do not attempt to resolve the disconnect between ourselves and others.
 
 The more I age, the more I feel disconnected with the new people I meet. If a conversation is not goal-oriented, it often feels awkward. Awkwardness is readily solved with intoxication.  
 
 ## Rebellion is Exile
 
-Culture seems bound to intoxicants. Risking rebellion against culture as a whole is risking self-imposed exile. I'll refer back to my previous post, [The First Fifteen Minutes]().
+Culture seems bound to intoxicants. Risking rebellion against culture as a whole is risking self-imposed exile. I'll refer back to my previous post, [The First Fifteen Minutes](https://uonai.space/writing/2018/05/29/fifteen/).
 
 The first fifteen minutes of social situations are the most awkward and difficult. At the bar, at home, etc.. This often leads to getting drinks as soon as possible. Note: The only thing that can make the first fifteen minutes more awkward is stating that you do not drink. I tend to order a fun drink without alcohol and avoid the topic of sobriety entirely. 
 
-We become increasingly different from each other as we age. Sometimes it's hard to break through the layers of an individual to find similarities. Without intoxicants, conversation requires creativity. Story-telling, jokes, games, active hobbies.
+We become increasingly different from each other as we age. Sometimes it's hard to break through the layers of an individual to find similarities. Without intoxicants, conversation requires creativity. This is a good thing because creative conversation creates lasting memories: Story-telling, jokes, games, active hobbies.
 
 When socializing, I try to find a few shared interests in the first fifteen minutes. I can usually find three shared interests, sometimes less, sometimes more. I've yet to meet someone that is unlike me in every way. With similar interests, there is endless conversation. 
 
