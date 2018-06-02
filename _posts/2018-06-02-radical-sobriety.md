@@ -30,7 +30,7 @@ However, unlike Socrates I am imperfect. I suspect that Socrates was an outlier,
 
 ## Imperfection is the Norm
 
-I try to abstain from activities that amplify my imperfections. There seems to always be better, more interesting path when intoxicants are out of the picture. The search for the better path is both the most difficult and the most rewarding part about embracing sobriety. 
+I try to abstain from activities that amplify my imperfections. There seems to generally be a better, more interesting path when intoxicants are out of the picture. The search for the better path is both the most difficult and the most rewarding part about embracing sobriety. 
 
 We tend to associate with people contributing to the world in similar ways to how we contribute. The creatives associate with the creatives, the laborers with the laborers.
 
