@@ -17,9 +17,9 @@ Radical sobriety is a movement I miss. I'm not sure why it captivated me, but kn
 
 By the time I graduated primary school, I was addicted to Xanax. After breaking from that pattern, I've kept away from prescription drugs of all forms. Social situations have been difficult since and I've learned to adapt.
 
-## Radical Youth to Moderate Adult
+## Radical Youth vs. Moderate Adult
 
-Youth culture embraces sobriety. It creates sober spaces for radicals. Adulthood assumes that we have broken from the ideological chains of youth culture. In place of youth culture, we have bound ourselves to the moderate chains of adulthood.
+Youth culture embraces sobriety. It creates sober spaces for radicals. Adulthood, however, assumes that we have broken from the ideological chains of youth culture. In place of youth culture, we have bound ourselves to the moderate chains of adulthood.
 
 Moderation implies that you pay bills and generally do what is expected of you. Taking drink when those around you are drinking is one of those many expectations. Avoiding drink can be seen as suspicious and negatively on your character.
 
