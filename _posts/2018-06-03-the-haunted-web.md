@@ -4,7 +4,7 @@ title: "The Haunted Web"
 comments: true
 description: "The Haunted Web"
 keywords: "The Haunted Web"
-date:   2018-06-02 8:00:00 +0200
+date:   2018-06-03 8:00:00 +0200
 published: true
 categories:
 - Writing
