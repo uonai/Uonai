@@ -17,7 +17,7 @@ There is a stark similarity between old Southern mansions and the modern web. I'
 
 I look to the social web now, the a-temporal electronic monolith. Minute-by-minute breathing the data formed from our concurrent shared experiences. An algorithmic life force churning away.
 
-Ask anyone who has recently tried to escape from stalkers, criminals, and mobs to define the web.  The web is horror manifest as reality. The web is an eye and a voice to for actors that the seek infinite vision and reach. The web is no longer contained to devices. It's a geographic net overlaying reality. An algorithmic structure grinding and shifting reality as it changes. 
+Ask anyone who has recently tried to escape from stalkers, criminals, and mobs to define the web. The web is horror manifest as reality. The web is an eye and a voice for actors that the seek infinite vision and reach. The web is no longer contained to devices. It's a geographic net overlaying reality. An algorithmic structure grinding and shifting reality as it changes. 
 
 The web paints our days and nights, it constructs our dreams and nightmares. 
 
