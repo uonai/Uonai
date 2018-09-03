@@ -4,7 +4,7 @@ author: Uonai
 layout: page
 ---
 
-  <img alt="" src="/images/head.jpg" width="200" height="200" />
+  <img alt="" src="/images/profile.jpg" width="200" height="200" />
 
 Hello, my name is __Uonai__ and I’m a __Computer Programmer__ with equal parts interest in design and development.
 
