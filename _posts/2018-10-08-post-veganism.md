@@ -20,7 +20,7 @@ This is what we worked for though. A world where it would be easy to abstain fro
 
 All utopias are based on contradictions. 
 
-Veganism was the beginning of modern identity politics. The movement was reactionary by nature, letting us branch into radically different lifestyles to see how we could change the world and how to militarize our tribes for good. PETA, Mercy For Animals and the like are now Institutionalized Group Identity, it’s only a matter of time before they forget their roots.
+Veganism was the beginning of modern identity politics. The movement was reactionary by nature, letting us branch into radically different lifestyles to see how we could change the world and how to militarize our tribes for good. PETA, Mercy For Animals and the like are now Institutionalized Group Identity, small corporations growing larger each day, and it’s only a matter of time before they forget their roots.
 
 As we near the end of the era of identity politics, we will also end the era of old-Veganism, Veganism-as-lifestyle-identity, Veganism held as a bludgeon and a badge. Critics have good reason to frown upon us now, as the movement becomes a caricature of itself.
 
