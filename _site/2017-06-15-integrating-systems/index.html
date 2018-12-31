@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aggregating JSON Feeds From Multiple Systems</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, Uonai, Uonai, jekyll">
+    <meta name="author" content="Uonai">
+    
+    
+    
+
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <!--<link rel="icon" type="image/ico" href="assets/favicon.ico">
+    <link rel="shortcut-icon" type="image/ico" href="assets/favicon.ico">-->
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Aggregating JSON Feeds From Multiple Systems" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="assets/favicon.ico" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+    <a id="author-name" class="alignable pull-left" href="http://localhost:4000"><img src="/images/logo2.png" width="50"></a>
+    <ul id="navlist" class="alignable pull-right navbar-ul">
+        
+        <li class="alignable pull-left nav-list"><a href="about">Persona</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai/Codex">Codex</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai">GitHub</a>
+            
+        </li>
+        
+    </ul>
+</div>
+<div style="clear:both"></div>
+<hr>
+        <div class="container content">
+            <br>
+            <div class="post-title">
+    <h1>Aggregating JSON Feeds From Multiple Systems</h1>
+    
+</div>
+<p>Last month I solved a problem World Bicycle Relief was struggling with for a long time – integrating all of our international donation feeds into one single feed to show the impact with a campaign.</p>
+
+<p>Generally when we launch a campaign, it starts as a US initiative and gradually changes into an international initiative that accepts currencies throughout Europe. We’d had now way to show that until now.</p>
+
+<p>The landing page is here: <a href="https://worldbicyclerelief.org/en/cyclofemme/">https://worldbicyclerelief.org/en/cyclofemme/</a>
+The technologies used on the page are:</p>
+<ul>
+  <li>Javascript &amp; JQuery</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>PHP</li>
+  <li>JSON</li>
+  <li>Feeds from Various Platforms (Causevox + Altruja)</li>
+</ul>
+
+<p>The code looks like this. When it runs, it loops into each individual JSON endpoint and pulls the funds raised. We then divide this number by the amount of bikes this produces for each currency. This number is populated on the page. The final step is taking this number and running it up to a grand total.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$(function () {
+    $.when(
+      //this is for US microsite
+        $.ajax({
+            dataType: "jsonp",
+            url: "https://cyclofemme.causevox.com/api_endpoint/info",
+            success: function (data) {
+              console.log(data);
+                var campaignfirst =Math.round(data.funds_raised);
+                $(".campaignfirst").html(campaignfirst);
+            }
+        }),
+  //this is for UK team within UK microsite
+        $.ajax({
+            dataType: "jsonp",
+            url: "https://worldbicyclereliefuk.causevox.com/api_endpoint/teams",
+            success: function (data) {
+              console.log(data);
+                var campaignsecond = Math.round(data[6].funds_raised);
+                $(".campaignsecond").html(campaignsecond);
+            }
+    
+        }),
+  //this is for Altruja Team within Altruja page
+         $.ajax({
+            dataType: "jsonp",
+            url: "https://www.altruja.de/api/page/YG1A?details=1&amp;num=10&amp;ort=1&amp;callback",
+            success: function (data) {
+
+              console.log(data);
+		var altrujaFundraiser = data.page.collected.replace(/\./g,'').slice(0,-2);
+                //var altrujaFundraiser = data.page.collected.replace(/\./g,'').slice(0, -3);
+                $(".altrujaFundraiser").html(altrujaFundraiser);
+            }
+        }),
+//this is for Canada team within Canada microsite
+           $.ajax({
+            dataType: "jsonp",
+            url: "https://fundraisecanada.causevox.com/api_endpoint/teams",
+            success: function (data) {
+
+              console.log(data);
+
+                var teamCanada = parseInt(data[8].funds_raised);
+                $(".teamCanada").html(teamCanada);
+            }
+        }),
+//this is for Australia team within Australia microsite
+          $.ajax({
+            dataType: "jsonp",
+            url: "https://fundraiseau.causevox.com/api_endpoint/teams",
+            success: function (data) {
+
+              console.log(data);
+
+                var teamAustralia = parseInt(data[0].funds_raised);
+                $(".teamAustralia").html(teamAustralia);
+            }
+        })
+
+//assign the above three functions as a, b, and c. from there, they are referenced in the
+    ).done(function (a, b, c, d, e) {
+        var total = +Math.round(a[0].funds_raised / 147) + +Math.round(b[0][6].funds_raised / 95)  + +Math.round(c[0].page.collected.replace(/\./g,'').slice(0, -2) / 100) + +Math.round(d[0][8].funds_raised / 147) +Math.round(e[0][0].funds_raised / 195)
+        $('.ticker').append(total);
+    });
+});
+</code></pre></div></div>
+
+
+            <br><hr>
+<div class="footer">
+    <center>
+      <a href="https://github.com/uonai">GitHub </a>/
+      <a href="https://twitter.com/uonaiii">Twitter </a>/
+      <a href="http://webring.xxiivv.com/">Webring </a>
+    </center>
+</div>
+        </div>
+    </div>
+</body>

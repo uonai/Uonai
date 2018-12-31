@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project: Banxre, a Simple NodeJS API</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, Uonai, Uonai, jekyll">
+    <meta name="author" content="Uonai">
+    
+    
+    
+
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <!--<link rel="icon" type="image/ico" href="assets/favicon.ico">
+    <link rel="shortcut-icon" type="image/ico" href="assets/favicon.ico">-->
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Project: Banxre, a Simple NodeJS API" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="assets/favicon.ico" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+    <a id="author-name" class="alignable pull-left" href="http://localhost:4000"><img src="/images/logo2.png" width="50"></a>
+    <ul id="navlist" class="alignable pull-right navbar-ul">
+        
+        <li class="alignable pull-left nav-list"><a href="about">Persona</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai/Codex">Codex</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai">GitHub</a>
+            
+        </li>
+        
+    </ul>
+</div>
+<div style="clear:both"></div>
+<hr>
+        <div class="container content">
+            <br>
+            <div class="post-title">
+    <h1>Project: Banxre, a Simple NodeJS API</h1>
+    
+</div>
+<p>In my current project building out an IoT Hub in Azure, there was a necessity to bootstrap and scale an API with mock JSON as the API was being built. Starting with a boilerplate JSON Server, Banxre added additional features to make the JSON Server framework modular and scalable.</p>
+
+<p>JSON Server out of the box requires all JSON to be included in one file. This meant that i’d be maintaining a file of 20K+ lines. In order to scale the application and break it into reusable segments, the application structure was refactored into an /API/ folder to include all of the necessary JSON. To ensure that the application could deploy to Azure, a startup file was included to do the bulk of the startup work – server.js.</p>
+
+<p>When the application is booted, all files in the /API/ folder are compiled into a single database file that is then watched by the application.</p>
+
+<p>View source code at <a href="https://github.com/uonai/Banxre">https://github.com/uonai/Banxre</a></p>
+
+            <br><hr>
+<div class="footer">
+    <center>
+      <a href="https://github.com/uonai">GitHub </a>/
+      <a href="https://twitter.com/uonaiii">Twitter </a>/
+      <a href="http://webring.xxiivv.com/">Webring </a>
+    </center>
+</div>
+        </div>
+    </div>
+</body>

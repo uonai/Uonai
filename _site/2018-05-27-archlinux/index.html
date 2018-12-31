@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Installation and Configuration of Arch Linux</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, Uonai, Uonai, jekyll">
+    <meta name="author" content="Uonai">
+    
+    
+    
+
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <!--<link rel="icon" type="image/ico" href="assets/favicon.ico">
+    <link rel="shortcut-icon" type="image/ico" href="assets/favicon.ico">-->
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Installation and Configuration of Arch Linux" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="assets/favicon.ico" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+    <a id="author-name" class="alignable pull-left" href="http://localhost:4000"><img src="/images/logo2.png" width="50"></a>
+    <ul id="navlist" class="alignable pull-right navbar-ul">
+        
+        <li class="alignable pull-left nav-list"><a href="about">Persona</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai/Codex">Codex</a>
+            
+            /
+            
+        </li>
+        
+        <li class="alignable pull-left nav-list"><a href="https://github.com/uonai">GitHub</a>
+            
+        </li>
+        
+    </ul>
+</div>
+<div style="clear:both"></div>
+<hr>
+        <div class="container content">
+            <br>
+            <div class="post-title">
+    <h1>Installation and Configuration of Arch Linux</h1>
+    
+</div>
+<p><img src="https://uonai.space/images/arch-linux.jpg" alt="Arch Linux" class="img-responsive" />
+I bricked my Macbook Pro this weekend and took the opportunity to upgrade to a Windows 10 / Linux dual boot. I purchased a Lenovo T470 because it was rated well for both Linux and Windows and was built for buisiness-grade programming.</p>
+
+<p>Manjaro is the Arch Linux distro that I decided on <a href="https://manjaro.github.io/">https://manjaro.github.io/</a>. Arch Linux has a reputation for being difficult to configure and hard to maintain. However, Manjaro provides enough built-in functionality to make installation and maintenance less painful. I’ll try to highlight my process for installing Arch Linux to make it easier for anyone looking to make the move. Note: I anticipate that everyone will have their own form of struggle, so be prepared to tinker.</p>
+
+<h1 id="step-1-try-out-your-linux-distro-before-installing">Step 1: Try out your Linux distro before installing.</h1>
+<p>Based on past experience spinning up VMs, I opted for Oracle VirtualBox. This let me get a feel for a couple different Linux distros: Solus, ElementaryOS, Ubuntu, Arch Linux.</p>
+
+<p>Process for setting up VM: <a href="https://wiki.manjaro.org/index.php?title=VirtualBox">https://wiki.manjaro.org/index.php?title=VirtualBox</a></p>
+
+<h1 id="step-2-back-up-files">Step 2: Back up files.</h1>
+<p>I backed up the few files that I had locally by adding them to my Google Drive. Never know what can go wrong when installing new operating systems.</p>
+
+<h1 id="step-2-free-up-space-on-your-hard-drive">Step 2: Free up space on your hard drive.</h1>
+<p>My hard drive on my Lenovo T470 is 250GB. I dedicated 150 to Windows 10, 100 to Arch Linux. To free up space, I followed this tutorial: <a href="https://www.youtube.com/watch?v=9gS5SoogltE">https://www.youtube.com/watch?v=9gS5SoogltE</a></p>
+
+<h1 id="step-3-create-bootable-usb-drive">Step 3: Create Bootable USB drive.</h1>
+<p>Manjaro has three versions: XFCE (minimal), KDE (luxury), GNOME (halfway point between XFCE &amp; KDE), Architect (console-based). Based on my specs, I installed KDE. After downloading the ISO, I followed this tutorial to set up a bootable USB stick with the ISO. Because I’m on Windows 10, I followed this section: “Writing to a USB Stick in Windows”: <a href="https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File">https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File</a></p>
+
+<h1 id="step-4-boot-from-bios-run-arch-linux-installer">Step 4: Boot from BIOS, run Arch Linux installer.</h1>
+<p>There were a few Lenovo manufacturer issues that I needed to resolve here. I anticipate this will be different for each user based on manufacturer. You’ll need to modify your BIOS settings to be able to boot from USB. Here are the updates I needed to make:</p>
+
+<h2 id="windows-updates">Windows Updates</h2>
+<p>Disable fast startup: <a href="https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169">https://lifehacker.com/enable-this-setting-to-make-windows-10-boot-up-faster-1743697169</a></p>
+
+<h2 id="bios-updates">BIOS Updates</h2>
+<p>I needed to make these updates to BIOS when I rebooted my PC. Prior to making these updates I was not able to boot from USB.</p>
+<ul>
+  <li>SECURITY page
+    <ul>
+      <li>Secure Boot = Disable</li>
+    </ul>
+  </li>
+  <li>STARTUP page
+    <ul>
+      <li>UEFI/Legacy Boot = Both</li>
+      <li>UEFI/Legacy Boot / UEFI/Legacy Boot Priority = UEFI First</li>
+      <li>Boot device list F12 Option = Enabled</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Once manufacturer issues are resolved (if you end up having any), you’ll be able to install Manjaro. For the install, I followed this tutorial: <a href="https://www.youtube.com/watch?v=4-kafKduFZw">https://www.youtube.com/watch?v=4-kafKduFZw</a></p>
+
+<h1 id="step-5-install-packages">Step 5: Install packages.</h1>
+
+<p>After installation was complete, I started installing packages for my dev environment. Mostly all packages in Arch Linux are installed through Pacman: <a href="https://wiki.archlinux.org/index.php/pacman">https://wiki.archlinux.org/index.php/pacman</a></p>
+
+<p>To search for packages, the library can be browsed: <a href="https://aur.archlinux.org/">https://aur.archlinux.org/</a></p>
+
+<p>For the most part I’m happy with the libraries that are offered. Coming from a Windows and Mac background, I still prefer NPM for managing packages so I installed NPM I followed this tutorial: <a href="https://computingforgeeks.com/install-latet-nodejs-and-npm-on-centos-7-ubuntu-16-04-arch-linux-macos/">https://computingforgeeks.com/install-latet-nodejs-and-npm-on-centos-7-ubuntu-16-04-arch-linux-macos/</a></p>
+
+<p>To install NPM from command prompt, run this command: $ sudo pacman -S nodejs</p>
+
+<p>Software I’m running currently:</p>
+<ul>
+  <li>Visual Studio Code: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+  <li>Left: <a href="https://github.com/hundredrabbits/Left">https://github.com/hundredrabbits/Left</a></li>
+  <li>Firefox Nightly: <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/">https://www.mozilla.org/en-US/firefox/channel/desktop/</a></li>
+  <li>Hyper: <a href="https://hyper.is/">https://hyper.is/</a></li>
+  <li>Android Studio: <a href="https://developer.android.com/studio/">https://developer.android.com/studio/</a></li>
+</ul>
+
+<p>I’ve spent one day so far with Arch Linux and I’m pleased with the setup. Arch Linux brings me back to the DeviantArt Windows 2000 era when everything seemed customizable. Computing is downright fun with Arch Linux and I look forward to continuing to test its potential.</p>
+
+            <br><hr>
+<div class="footer">
+    <center>
+      <a href="https://github.com/uonai">GitHub </a>/
+      <a href="https://twitter.com/uonaiii">Twitter </a>/
+      <a href="http://webring.xxiivv.com/">Webring </a>
+    </center>
+</div>
+        </div>
+    </div>
+</body>

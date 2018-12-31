@@ -1,35 +1,27 @@
-# Dependencies
-markdown:            kramdown
-highlighter:         rouge
+title: Uonai
+author: Uonai
+subtitle: A computer programmer
 
-# Gems (for Jekyll 3.0)
-gems: [jekyll-paginate]
+baseurl: ""
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+markdown: kramdown
 
-# Setup
-title:               Uonai ///
-tagline:             'A computer programmer'
-description:         ''
-url:                 https://uonai.space/
-baseurl:             https://uonai.space/
-paginate:            5
+footer_url: "https://github.com/uonai"
+footer_text: "GitHub"
 
-# About/contact
-author:
-  name:              Colin McCaleb
-  url:               https://twitter.com/uonaiii
-  email:             cs.mccaleb@gmail.com
+profile-picture: images/profile.jpg
 
-# Custom vars
-version:             0.1
+favicon_location: assets/favicon.ico
 
-# Social Media
-github:				http://github.com/uonai
-twitter:			http://twitter.com/uonaiii
-disqus:             
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
 
-
+navbar:
+ - name: "Persona"
+   link: "/about"
+ - name: "Codex"
+   link: "https://github.com/uonai/Codex"
+ - name: "GitHub"
+   link: "https://github.com/uonai"
