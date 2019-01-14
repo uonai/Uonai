@@ -10,7 +10,7 @@ categories:
 - Writing
 ---
   
-Every second, we make the choice of whether to consume or to produce -- it's infinitely easy to consume and incredibly difficult to produce. Finding the perfect ratio in which you're consuming enough to stay sane while producing enough to stay relevant is damned near impossible. It's a constant struggle, and it is becoming more and more difficult as the content we consume becomes better catered to that-which-we-desire. 
+Every second, we make the choice of whether to consume or to produce -- it's infinitely easy to consume and incredibly difficult to produce. Finding the perfect ratio in which you're consuming enough to stay sane while producing enough to stay relevant is damned near impossible. It's a constant struggle, and it's becoming more and more difficult as the content we consume becomes better catered to that-which-we-desire. 
 
 Netflix is maybe the easiest way to consume content and stay entertained without having to produce anything whatsoever. The content never ends, and it becomes ever more adapted to the content consumer, and now, with Bandersnatch, they've given us even more material to consume. 
 
@@ -34,10 +34,10 @@ Sophocles said, "We long to have again the vanished past, in spite of all its pa
 
 I think we'll see this more often with content creators. The ability for the content consumer to choose a path and to passively live through the eyes of the content creator. Netflix does this with Bandersnatch, but so can YouTubers, Twitch streamers, and anyone out there doing real things in the world, in a world that many of us fear interacting with.
 
-We're [burned out](https://www.wbur.org/onpoint/2019/01/14/millenials-burnout-generation-work-buzzfeed), I'm sure you've read this article by now. By consuming content, we can create the illusion for ourselves that we are not burned out.
+We're burned out, I'm sure you've read the [millenials are burned out article](https://www.wbur.org/onpoint/2019/01/14/millenials-burnout-generation-work-buzzfeed) by now. We're in a constant struggle with burnout, and by consuming content, we can create the illusion for ourselves that we are not burned out.
 
 Content creators can benefit from our burnout. All it takes is a poll. Bandersnatch is, after all, a glorified interactive poll. The content creator need only to direct a few questions to the content consumer: 'What should I wear today', 'What should I eat today', and 'Where should I go today'. From there, we, as content consumers, can cater the experiences we want without having to truly interact with the world.
 
 It's not far of a jump to imagine this reality. I think this reality already exists, or is coming-to-existence. That could be why Bandersnatch feels boring. 
 
-Our content naturally adapt now. We consume it to fill our free time, to fill the void. With the purpose of pacifying ourselves in an increasingly chaotic world. We value the individuals that live in the world, and choose to document their adventures. They become our ideal selves, our heroes, a nostalgia for a present that will never exist.
+Our content naturally adapts to us now, and the content that doesn't yet adapt soon will. We consume it to fill our free time, to fill the void. With the purpose of pacifying ourselves in an increasingly chaotic world. We value the individuals that choose to live in the world, that document and share their adventures. They become our ideal selves, our heroes, a nostalgia for a present that will never exist.
