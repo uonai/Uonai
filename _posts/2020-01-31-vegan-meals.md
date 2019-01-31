@@ -1,15 +1,22 @@
 ---
 layout: post
-title: "A Week of Vegan Meals"
+title: A Week of Vegan Meals
 comments: true
-description: "A Week of Vegan Meals"
-keywords: "A Week of Vegan Meals"
-date:   2019-01-14 8:00:00 +0200
+description: A Week of Vegan Meals
+keywords: A Week of Vegan Meals
+date: '2019-01-14 8:00:00 +0200'
 published: false
 categories:
-- Writing
+  - Writing
 ---
-  
+Last week, I did a meal tracking exercise because Ian (Twitter: @ianjbattaglia) wanted to see exactly what I ate each day. I didn't photograph everything but did document as much as I could. 
+
+- All protein used was SunWarrior Chocolate Protien (primarily Pea Protein)
+- I did prep eight meals, 4 Korean Miso Tofu meals, and 4 Spaghetti and Meatball meals, pictured below.
+![]({{site.baseurl}}/_posts/2019-01-20%2004.02.58%202.jpg)
+![2019-01-31 01.29.32 1.jpg]({{site.baseurl}}/_posts/2019-01-31 01.29.32 1.jpg)
+
+
 # 01.21.19
 * 9:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
 * 12:00PM - Korean Miso Seitan w/ broccoli and rice - 30g protein / 600 cal
