@@ -9,10 +9,11 @@ published: true
 categories:
   - Writing
 ---
-Last week, I did a meal tracking exercise because Ian (Twitter: @ianjbattaglia) wanted to see exactly what I ate each day. I didn't photograph everything but did document as much as I could. 
+Last week, I did a meal tracking exercise because Ian (Twitter: @ianjbattaglia) wanted to see exactly what I ate each day. I didn't photograph everything but did document as well as I could. Recipes are still being drafted, and in the mean time my Seitan recipe can be found here: [https://github.com/uonai/Codex/blob/master/Life/Recipes/Seitan.md](https://github.com/uonai/Codex/blob/master/Life/Recipes/Seitan.md)
 
-- All protein used was SunWarrior Chocolate Protien (primarily Pea Protein)
+- SunWarrior brand Chocolate Protein (primarily Pea Protein) was my go-to each morning.
 - I did prep eight meals, 4 Korean Miso Tofu meals, and 4 Spaghetti and Meatball meals, pictured below.
+- I keep a stock of various Clif Protein bars and buy a pack of Tofurkey Sausages each week for protein snacks.
 ![]({{site.baseurl}}/_posts/2019-01-20%2004.02.58%202.jpg)
 ![2019-01-31 01.29.32 1.jpg]({{site.baseurl}}/images/2019-01-20%2004.02.58%202.jpg)
 ![2019-01-20 04.02.58 2.jpg]({{site.baseurl}}/images/2019-01-31%2001.29.32%201.jpg)
