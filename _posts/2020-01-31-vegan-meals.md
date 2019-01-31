@@ -14,8 +14,8 @@ Last week, I did a meal tracking exercise because Ian (Twitter: @ianjbattaglia) 
 - All protein used was SunWarrior Chocolate Protien (primarily Pea Protein)
 - I did prep eight meals, 4 Korean Miso Tofu meals, and 4 Spaghetti and Meatball meals, pictured below.
 ![]({{site.baseurl}}/_posts/2019-01-20%2004.02.58%202.jpg)
-![2019-01-31 01.29.32 1.jpg]({{site.baseurl}}/_posts/2019-01-31 01.29.32 1.jpg)
-![2019-01-20 04.02.58 2.jpg]({{site.baseurl}}/_posts/2019-01-20 04.02.58 2.jpg)
+![2019-01-31 01.29.32 1.jpg]({{site.baseurl}}/images/2019-01-20%2004.02.58%202.jpg)
+![2019-01-20 04.02.58 2.jpg]({{site.baseurl}}/images/2019-01-31%2001.29.32%201.jpg)
 
 Each day provided roughly 150g of protein and the calories did vary slightly. I tend to cook without oil and use an air fryer or steamer for most preparation. 
 
