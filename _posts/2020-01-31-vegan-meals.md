@@ -5,7 +5,7 @@ comments: true
 description: A Week of Vegan Meals
 keywords: A Week of Vegan Meals
 date: '2019-01-14 8:00:00 +0200'
-published: false
+published: true
 categories:
   - Writing
 ---
