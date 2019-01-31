@@ -15,7 +15,9 @@ Last week, I did a meal tracking exercise because Ian (Twitter: @ianjbattaglia) 
 - I did prep eight meals, 4 Korean Miso Tofu meals, and 4 Spaghetti and Meatball meals, pictured below.
 ![]({{site.baseurl}}/_posts/2019-01-20%2004.02.58%202.jpg)
 ![2019-01-31 01.29.32 1.jpg]({{site.baseurl}}/_posts/2019-01-31 01.29.32 1.jpg)
+![2019-01-20 04.02.58 2.jpg]({{site.baseurl}}/_posts/2019-01-20 04.02.58 2.jpg)
 
+Each day provided roughly 150g of protein and the calories did vary slightly. I tend to cook without oil and use an air fryer or steamer for most preparation. 
 
 # 01.21.19
 * 9:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
